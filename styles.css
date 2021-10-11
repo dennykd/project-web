@@ -1,7 +1,10 @@
 /* START NAVBAR */
 .banner-image {
-  background-image: url(img/1.jpg);
+  background-image: url(img/1.jpg) !important;
   background-size: cover;
+}
+.text-1 {
+  font-weight: bolder;
 }
 .text-1 a {
   color: #f5a637 !important;
@@ -42,6 +45,21 @@ a.button-nav :hover {
   border-style: solid;
   border-color: #f5a637 !important;
 }
+/* START GALLERY */
+.gallery-item {
+  max-width: 100%;
+}
+.gallery img {
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+#gallery-popup .modal-img {
+  width: 100%;
+}
+/* END GALLERY */
 /* END DEFAULT */
 
 /* START FOOTER */

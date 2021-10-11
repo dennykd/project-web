@@ -5,22 +5,30 @@
   });
 </script>
 
-
+<!-- JS NAVBAR -->
    <script type="text/javascript">
       const nav = document.querySelector('nav');
       const navbrand = document.querySelector('.navbar-brand');
-      const navtext = document.querySelector('.nav-link');
+      const navtext = document.querySelector(".text-nav");
       window.addEventListener('scroll', function () {
         if (window.pageYOffset > 50) {
-          nav.classList.add('bg-light', 'shadow');
-          navbrand.classList.add('text-black');
-          navtext.classList.add('text-black');
-          navtext.classList.remove('text-white');
+          nav.classList.add('bg-dark', 'shadow');
         } else {
-          nav.classList.remove('bg-light', 'shadow');
-          navbrand.classList.remove('text-black');
-          navtext.classList.add('text-white');
-          navtext.classList.remove('text-black');
+          nav.classList.remove('bg-dark', 'shadow');
         }
       });
     </script>
+
+<!-- JS GALLERY -->
+<script type="text/javascript">
+		document.addEventListener("click",function (e){
+		  if(e.target.classList.contains("gallery-item")){
+		  	  const src = e.target.getAttribute("src");
+		  	  document.querySelector(".modal-img").src = src;
+		  	  const myModal = new bootstrap.Modal(document.getElementById('gallery-popup'));
+		  	  myModal.show();
+		  }
+		})
+</script>
+
+

@@ -53,7 +53,7 @@
 <!-- ABOUT -->
 <div class="home-img w-100 vh-100 d-flex justify-content-center align-items-center my-5">
   <div class="content-home text-center">
-     <h1 class="text">Enjoy Your Coffee.</h1>
+     <h1 class="text text-dark">Enjoy Your Coffee.</h1>
   </div>
 </div>
 <!-- ABOUT -->
@@ -64,7 +64,7 @@
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-6 text-center">
           <!-- Heading -->
-          <h2 class="mb-2">Menu options</h2>
+          <h2 class="mb-2">Menu Options</h2>
           <!-- Subheading --> 
           <p class="mb-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -902,7 +902,7 @@
 <!-- MENU -->
 
 <!-- RESERVATION -->
-<section class="py-7 py-md-9 pb-2 bg-light">
+<section class="py-7 py-md-9 pb-2 bg-light reservation">
 <div class="container my-5">
   <div class="row justify-content-center">
     <div class="col-12 col-8 col-lg-6 text-center">
@@ -946,12 +946,12 @@
             <!-- DATE -->
             <div class="mb-3">
               <label class="visually-hidden" for="date">Date</label>
-              <input type="date" name="date" class="form-control" value="2021-10-01" >
+              <input type="date" name="date" class="form-control" value="" >
             </div>
             <!-- TIME -->
             <div class="mb-3">
             <label class="visually-hidden" for="time">Time</label>
-            <input type="time" class="form-control" name="date" value="09:00">
+            <input type="time" class="form-control" name="date" value="">
             </div>
           </div>
           <!-- BUTTON -->
@@ -967,6 +967,66 @@
 <!-- RESERVATION -->
 
 <!-- GALLERY -->
+<section class="gallery min-vh-100">
+		<div class="container-lg">
+    <div class="row justify-content-center mt-5 mb-3">
+      <div class="col-12 col-md-8 col-lg-6 text-center">
+          <!-- Heading -->
+          <h2 class="mb-2">Gallery</h2>
+          <!-- Subheading --> 
+          <p class="mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Ratione numquam eos perferendis itaque hic unde, ad, laudantium minima.
+          </p>
+      </div>
+    </div>
+			<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+				<div class="col">
+					<img src="img/7.jpg" class="gallery-item" alt="Gallery1">
+				</div>
+				<div class="col">
+					<img src="img/8.jpg" class="gallery-item" alt="Gallery2">
+				</div>
+				<div class="col">
+					<img src="img/9.jpg" class="gallery-item" alt="Gallery3">
+				</div>
+				<div class="col">
+					<img src="img/10.jpg" class="gallery-item" alt="Gallery4">
+				</div>
+				<div class="col">
+					<img src="img/11.jpg" class="gallery-item" alt="Gallery5">
+				</div>
+				<div class="col">
+					<img src="img/12.jpg" class="gallery-item" alt="Gallery6">
+				</div>
+        <div class="col">
+					<img src="img/13.jpg" class="gallery-item" alt="Gallery7">
+				</div>
+        <div class="col">
+					<img src="img/14.jpg" class="gallery-item" alt="Gallery8">
+				</div>
+        <div class="col">
+					<img src="img/15.jpg" class="gallery-item" alt="Gallery9">
+				</div>
+        
+			</div>
+		</div>
+	</section>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/1.jpg" class="modal-img" alt="Modal Image">
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- GALLERY -->
 
